@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainMenuScreen">
+
+    <fragment
+        android:id="@+id/mainMenuScreen"
+        android:name="com.example.navigation.screens.MainMenuScreen"
+        android:label="Main Menu"
+        tools:layout="@layout/fragment_main_menu">
+        <action
+            android:id="@+id/action_mainMenuScreen_to_jaimeProfileScreen"
+            app:destination="@id/jaimeProfileScreen" />
+        <action
+            android:id="@+id/action_mainMenuScreen_to_ericProfileScreen"
+            app:destination="@id/ericProfileScreen" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/jaimeProfileScreen"
+        android:name="com.example.navigation.screens.JaimeProfileScreen"
+        android:label="Jaime Morales Gallo"
+        tools:layout="@layout/fragment_jaime_profile">
+        <action
+            android:id="@+id/action_jaimeProfileScreen_to_mainMenuScreen"
+            app:destination="@id/mainMenuScreen"
+            app:popUpTo="@id/mainMenuScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ericProfileScreen"
+        android:name="com.example.navigation.screens.EricProfileScreen"
+        android:label="Eric López Arciniega"
+        tools:layout="@layout/fragment_eric_profile">
+        <action
+            android:id="@+id/action_ericProfileScreen_to_mainMenuScreen"
+            app:destination="@id/mainMenuScreen"
+            app:popUpTo="@id/mainMenuScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

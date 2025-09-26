@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    
+    <!-- Main Menu -->
+    <string name="team_name">LC</string>
+    <string name="jaime_button">Jaime</string>
+    <string name="eric_button">Eric</string>
+    <string name="back_button">← Volver</string>
+    
+    <!-- Jaime Profile -->
+    <string name="jaime_name">Jaime Morales Gallo</string>
+    <string name="jaime_height">Altura: 1.80 m</string>
+    <string name="jaime_gender">Género: Hombre</string>
+    <string name="jaime_hobby1">• Boxea</string>
+    <string name="jaime_hobby2">• Lee Comics</string>
+    <string name="jaime_bio">Estudiante de ingeniería de 22 años apasionado por la programación, la tecnología y la administración. Me interesa liderar proyectos, resolver problemas y aportar en el desarrollo de soluciones innovadoras. En lo personal disfruto practicar deportes como el box y el básquetbol, además de ser aficionado a los cómics, los videojuegos y el anime.</string>
+    
+    <!-- Eric Profile -->
+    <string name="eric_name">Eric López Arciniega</string>
+    <string name="eric_height">Altura: 1.86 m</string>
+    <string name="eric_gender">Género: Hombre</string>
+    <string name="eric_hobby1">• Juega Videojuegos</string>
+    <string name="eric_hobby2">• Ve Anime</string>
+    <string name="eric_bio">Estudiante de Ingeniería Cibernética y sistemas, me apasiona el desarrollo de software  y aprender sobre las nuevas tecnologías con el fin de brindar soluciones de software innovadoras. Busco constantemente informarme sobre las tendencias de la industria para poder ser capaz de desarrollar aplicaciones de todo tipo siguiendo los estándares y necesidades del mercado actual. Mi misión es poder aplicar mis conocimientos en el desarrollo de software en distintos tipos de industrias, informándome sobre estás con el fin de poder entregar proyectos que empatizen con el cliente y propongan soluciones que sean útiles y mejoren sobre aquello que ya está construído.</string>
+    
+    <!-- Common -->
+    <string name="physical_stats">Estadísticas Físicas</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="personal_professional_profile">Perfil Personal y Profesional</string>
+    
+    <!-- Content Descriptions -->
+    <string name="lc_logo_description">LC Logo</string>
+    <string name="jaime_image_description">Jaime Morales Gallo</string>
+    <string name="eric_image_description">Eric López Arciniega</string>
+</resources>

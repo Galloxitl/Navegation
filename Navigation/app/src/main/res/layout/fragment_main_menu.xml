@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/lc" />
+
+    <!-- Team Name -->
+    <TextView
+        android:id="@+id/teamNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/team_name"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Team Members Buttons -->
+    <Button
+        android:id="@+id/jaimeButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="@string/jaime_button"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/purple_500" />
+
+    <Button
+        android:id="@+id/ericButton"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="@string/eric_button"
+        android:textSize="18sp"
+        android:backgroundTint="@color/purple_500" />
+
+</LinearLayout>
